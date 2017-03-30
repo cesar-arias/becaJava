@@ -9,7 +9,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Main Movies</title>
 <!-- Banner -->
 <spring:url value="/resources/img/Beast-and-Beauty.jpg" var="bab" />

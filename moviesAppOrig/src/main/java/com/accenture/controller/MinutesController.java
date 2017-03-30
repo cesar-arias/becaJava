@@ -43,7 +43,7 @@ public class MinutesController {
         System.out.println("---------------------");
         
         if(finish.equals("true")){
-        	return "Exito al comprar "+name;
+        	return "Exito al comprar "+name.toUpperCase();
         }else{
         	return "Total a pagar: $"+total;
         }
