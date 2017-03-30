@@ -14,22 +14,18 @@
       min-height: 100vh;
       flex-direction: column;
     }
-
     main {
       flex: 1 0 auto;
     }
-
     body {
       background: #fff;
     }
-
     .input-field input[type=date]:focus + label,
     .input-field input[type=text]:focus + label,
     .input-field input[type=email]:focus + label,
     .input-field input[type=password]:focus + label {
       color: #e91e63;
     }
-
     .input-field input[type=date]:focus,
     .input-field input[type=text]:focus,
     .input-field input[type=email]:focus,
@@ -44,7 +40,7 @@
 	  var use = $("#email").val();
 	  var pass = $("#password").val();
 	  if(use === "cesar@gmail.com" && pass === "123"){
-		  document.location.href="addMinutes.html"
+		  document.location.href="MoviesMenu.html"
 	  }else{
 		  Materialize.toast('Favor de Revisar usuario y contraseña', 4000,'');
 	  }
